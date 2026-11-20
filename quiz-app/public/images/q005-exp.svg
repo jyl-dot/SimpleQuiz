@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="180" viewBox="0 0 200 180" font-family="Arial, sans-serif">
+  <rect x="60" y="30" width="80" height="26" rx="4" fill="#bfdbfe" stroke="#3b82f6"/>
+  <text x="100" y="48" text-anchor="middle" font-size="13" fill="#1e3a8a">3（栈顶）</text>
+  <rect x="60" y="60" width="80" height="26" rx="4" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="100" y="78" text-anchor="middle" font-size="13" fill="#1e3a8a">2</text>
+  <rect x="60" y="90" width="80" height="26" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="100" y="108" text-anchor="middle" font-size="13" fill="#1e3a8a">1（栈底）</text>
+  <line x1="60" y1="120" x2="140" y2="120" stroke="#334155" stroke-width="2"/>
+  <text x="100" y="146" text-anchor="middle" font-size="12" fill="#334155">弹出顺序：3 → 2 → 1（后进先出）</text>
+</svg>

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "q001",
+    "type": "single",
+    "stem": "HTTP 协议默认使用的端口号是？",
+    "options": [
+      { "key": "A", "text": "21" },
+      { "key": "B", "text": "80", "image": "/images/q001-b.svg" },
+      { "key": "C", "text": "443" },
+      { "key": "D", "text": "8080" }
+    ],
+    "answer": ["B"],
+    "explanation": "HTTP 默认使用 80 端口；443 是 HTTPS 端口，21 是 FTP 端口，8080 是常见的备用端口。"
+  },
+  {
+    "id": "q002",
+    "type": "multiple",
+    "stem": "以下哪些属于操作系统？",
+    "options": [
+      { "key": "A", "text": "Linux" },
+      { "key": "B", "text": "Windows" },
+      { "key": "C", "text": "HTTP" },
+      { "key": "D", "text": "MySQL" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "Linux 和 Windows 是操作系统；HTTP 是网络协议，MySQL 是数据库管理系统。"
+  },
+  {
+    "id": "q003",
+    "type": "single",
+    "stem": "下图描述的是 TCP 建立连接的过程，第三次握手发送的报文标志位是？",
+    "stemImage": "/images/q003-stem.svg",
+    "options": [
+      { "key": "A", "text": "SYN" },
+      { "key": "B", "text": "SYN+ACK" },
+      { "key": "C", "text": "ACK" },
+      { "key": "D", "text": "FIN" }
+    ],
+    "answer": ["C"],
+    "explanation": "三次握手：第一次客户端发送 SYN，第二次服务器回复 SYN+ACK，第三次客户端发送 ACK，连接建立。"
+  },
+  {
+    "id": "q004",
+    "type": "multiple",
+    "stem": "以下哪些属于关系型数据库？",
+    "options": [
+      { "key": "A", "text": "MySQL" },
+      { "key": "B", "text": "PostgreSQL" },
+      { "key": "C", "text": "MongoDB" },
+      { "key": "D", "text": "Redis" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "MySQL、PostgreSQL 是关系型数据库；MongoDB 是文档数据库，Redis 是键值数据库。"
+  },
+  {
+    "id": "q005",
+    "type": "single",
+    "stem": "栈（Stack）的特点是？",
+    "options": [
+      { "key": "A", "text": "先进先出" },
+      { "key": "B", "text": "后进先出" },
+      { "key": "C", "text": "只能随机访问" },
+      { "key": "D", "text": "按优先级出队" }
+    ],
+    "answer": ["B"],
+    "explanation": "栈遵循后进先出（LIFO）：最后压入的元素最先弹出。先进先出（FIFO）是队列的特点。",
+    "explanationImage": "/images/q005-exp.svg"
+  },
+  {
+    "id": "q006",
+    "type": "single",
+    "stem": "IPv4 地址由多少位二进制组成？",
+    "options": [
+      { "key": "A", "text": "16" },
+      { "key": "B", "text": "32" },
+      { "key": "C", "text": "64" },
+      { "key": "D", "text": "128" }
+    ],
+    "answer": ["B"],
+    "explanation": "IPv4 地址是 32 位，通常写成 4 组十进制数（如 192.168.1.1）；IPv6 是 128 位。"
+  },
+  {
+    "id": "q007",
+    "type": "multiple",
+    "stem": "以下哪些是常见的 HTTP 请求方法？",
+    "options": [
+      { "key": "A", "text": "GET" },
+      { "key": "B", "text": "POST" },
+      { "key": "C", "text": "FTP" },
+      { "key": "D", "text": "SSH" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "GET、POST 是 HTTP 请求方法（还有 PUT、DELETE 等）；FTP 是文件传输协议，SSH 是安全外壳协议。"
+  },
+  {
+    "id": "q008",
+    "type": "single",
+    "stem": "二进制数 1010 对应的十进制数是？",
+    "options": [
+      { "key": "A", "text": "8" },
+      { "key": "B", "text": "10" },
+      { "key": "C", "text": "12" },
+      { "key": "D", "text": "14" }
+    ],
+    "answer": ["B"],
+    "explanation": "1010 = 1×2³ + 0×2² + 1×2¹ + 0×2⁰ = 8 + 0 + 2 + 0 = 10。"
+  },
+  {
+    "id": "q009",
+    "type": "multiple",
+    "stem": "以下哪些是版本控制工具？",
+    "options": [
+      { "key": "A", "text": "Git" },
+      { "key": "B", "text": "SVN" },
+      { "key": "C", "text": "npm" },
+      { "key": "D", "text": "Docker" }
+    ],
+    "answer": ["A", "B"],
+    "explanation": "Git 和 SVN 是版本控制工具；npm 是包管理器，Docker 是容器化平台。"
+  },
+  {
+    "id": "q010",
+    "type": "single",
+    "stem": "TCP 与 UDP 相比，TCP 的主要特点是？",
+    "options": [
+      { "key": "A", "text": "无连接" },
+      { "key": "B", "text": "面向连接、可靠传输" },
+      { "key": "C", "text": "只支持广播" },
+      { "key": "D", "text": "开销更小" }
+    ],
+    "answer": ["B"],
+    "explanation": "TCP 面向连接，通过确认和重传保证可靠传输；UDP 无连接、不可靠但开销小。"
+  }
+]
